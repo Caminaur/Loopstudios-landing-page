@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  /* Layout Breakpoints */
+  --breakpoint-mobile: 375px;
+  --breakpoint-desktop: 1440px;
+
+  /* Primary Colors */
+  --color-primary-white: hsl(0, 0%, 100%);
+  --color-primary-black: hsl(0, 0%, 0%);
+  --color-primary-grey-200: hsl(0, 0%, 85%);
+
+  /* Typography */
+  --font-size-body: 15px;
+
+  /* Font Families */
+  --font-alata: "Alata", sans-serif;
+  --font-josefin-sans: "Josefin Sans", sans-serif;
+
+  /* Font Weights */
+  --font-weight-regular: 400; /* Alata */
+  --font-weight-light: 300; /* Josefin Sans */
+}
