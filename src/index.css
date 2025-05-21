@@ -21,3 +21,7 @@
   --font-weight-regular: 400; /* Alata */
   --font-weight-light: 300; /* Josefin Sans */
 }
+#root {
+  width: 100vw;
+  overflow: hidden;
+}
