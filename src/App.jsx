@@ -7,8 +7,10 @@ function App() {
   return (
     <>
       <Section_1 />
-      <Section_2 />
-      <Section_3 />
+      <div className="flex flex-col items-center justify-center lg:w-3/4 w-screen lg:mx-auto">
+        <Section_2 />
+        <Section_3 />
+      </div>
     </>
   );
 }

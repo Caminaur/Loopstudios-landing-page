@@ -3,16 +3,14 @@ import desktopInteractiveIMG from "../../assets/images/mobile/image-interactive.
 
 function Section_2() {
   return (
-    <div className="relative flex flex-col md:flex-row items-center justify-center px-8 py-12 md:px-24 h-screen md:h-screen ">
-      {/* Imagen */}
+    <div className="relative flex flex-col md:flex-row items-center justify-center px-8 py-12 md:px-24 w-full h-screen md:h-screen">
       <img
         className="md:absolute left-10 w-230 max-w-[80%]"
         src={mobileInteractiveIMG}
         alt=""
       />
 
-      {/* Caja de texto */}
-      <div className="bg-white flex flex-col justify-center items-center md:h-1/2 md:absolute md:bottom-0 py-6 px-0 gap-6 w-full md:w-150 max-w-full md:right-0 lg:right-24 lg:w-1/2 xl:h-120">
+      <div className="bg-white flex flex-col justify-center items-center md:h-1/2 md:absolute md:bottom-0 py-6 px-0 gap-6 w-full md:w-150 max-w-full md:right-0 lg:right-24 xl:w-1/2 xl:h-120">
         <p className="uppercase text-4xl md:text-4xl lg:text-5xl text-center md:text-left font-light mb-6 mx-10 w-110 lg:w-120">
           The leader in interactive VR
         </p>
