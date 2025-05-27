@@ -15,7 +15,7 @@ function Navbar() {
   ];
 
   return !navbarOpen ? (
-    <header className="flex justify-between w-screen lg:w-280 max-w-full">
+    <header className="flex justify-between w-screen lg:w-280 max-w-3/4">
       <img src={logoIMG} alt="Logo" />
       <img
         src={mobileMenuIMG}

@@ -4,13 +4,13 @@ import { images } from "../../assets/imageData";
 
 function Section_3() {
   return (
-    <div className="w-full p-4 flex flex-col items-center gap-10 pb-28 md:flex-row md:flex-wrap md:py-2 lg:w-max-[1440px]">
+    <div className="w-full p-4 flex flex-col items-center gap-10 pb-28 md:flex-row md:flex-wrap md:py-2 lg:w-max-[1440px] lg:pb-50">
       <h2 className="uppercase text-4xl font-light text-center md:order-1 md:mr-auto">
         Our Creations
       </h2>
       <div className="order-3 md:order-2 group">
         <a
-          className="px-12 py-2 border-2 tracking-[.25rem] border-primary-grey-200 uppercase font-semibold rounded-sm transition-colors duration-200 group-hover:border-neutral-400"
+          className="px-12 py-2 border-2 tracking-[.25rem] border-primary-grey-200 uppercase font-semibold rounded-sm transition-colors duration-200 group-hover:bg-primary-black group-hover:text-primary-white"
           href="#"
         >
           See all
