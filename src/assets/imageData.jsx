@@ -36,8 +36,8 @@ export const images = [
     desktop: nightArcadeDesktop,
   },
   {
-    title1: "Soccer Team",
-    title2: "VR",
+    title1: "Soccer",
+    title2: "Team VR",
     mobile: soccerTeamVR,
     desktop: soccerTeamVRDesktop,
   },
@@ -48,8 +48,8 @@ export const images = [
     desktop: theGridDesktop,
   },
   {
-    title1: "From",
-    title2: "Up Above",
+    title1: "From Up",
+    title2: "Above VR",
     mobile: fromUp,
     desktop: fromUpDesktop,
   },
