@@ -16,7 +16,7 @@ function Section_3() {
           See all
         </a>
       </div>
-      <div className="p-4 pb-30 order-2 md:order-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 w-full lg:p-0 2xl:grid-cols-6">
+      <div className="p-4 pb-30 order-2 md:order-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 w-full lg:p-0 lg:grid-cols-[repeat(auto-fill,minmax(230px,1fr))] lg:max-w-[1440px]">
         {images.map((image, index) => {
           return (
             <Card

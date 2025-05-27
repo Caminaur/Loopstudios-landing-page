@@ -3,8 +3,8 @@ import React from "react";
 function Card(props) {
   const { image, title1, title2, imageDesktop } = props;
   return (
-    <div className="w-full flex justify-center items-center flex-col">
-      <div className="relative h-36 md:h-80 group cursor-pointer lg:h-100">
+    <div className="w-full flex justify-center items-center flex-col h-36 md:h-100 ">
+      <div className="relative group cursor-pointer w-full h-full overflow-hidden">
         <picture>
           <source media="(min-width: 768px)" srcSet={imageDesktop} />
           <img
