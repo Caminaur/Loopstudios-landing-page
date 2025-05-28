@@ -8,7 +8,7 @@ function Section_1() {
     >
       <Navbar />
       <div className="flex flex-col justify-center align-baseline flex-1 w-full [@media(min-width:1200px)]:w-280">
-        <div className="border-4 border-zinc-50 -translate-y-24 md:max-w-[400px]">
+        <div className="border-4 border-zinc-50 -translate-y-24 max-w-[400px]">
           <p className="text-white text-4xl md:text-4xl lg:text-5xl py-5 px-6 w-full">
             IMMERSIVE EXPERIENCES THAT DELIVER
           </p>

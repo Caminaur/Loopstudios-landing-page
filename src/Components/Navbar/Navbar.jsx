@@ -1,8 +1,8 @@
 import logoIMG from "../../assets/images/logo.svg";
 import mobileMenuIMG from "../../assets/images/icon-hamburger.svg";
 import closeMenuIMG from "../../assets/images/icon-close.svg";
-import clsx from "clsx";
 import { useState } from "react";
+import { useEffect } from "react";
 
 function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -14,8 +14,14 @@ function Navbar() {
     { name: "Support", link: "#" },
   ];
 
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setNavbarOpen(false);
+    });
+  }, []);
+
   return !navbarOpen ? (
-    <header className="flex justify-between w-screen lg:w-280 max-w-3/4">
+    <header className=" flex justify-between w-full lg:w-280 lg:max-w-3/4">
       <img src={logoIMG} alt="Logo" />
       <img
         src={mobileMenuIMG}

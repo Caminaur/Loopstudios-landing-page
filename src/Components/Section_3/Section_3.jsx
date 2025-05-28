@@ -4,7 +4,7 @@ import { images } from "../../assets/imageData";
 
 function Section_3() {
   return (
-    <div className="w-full p-4 flex flex-col items-center gap-10 pb-28 md:flex-row md:flex-wrap md:py-2 lg:w-max-[1440px] lg:pb-50">
+    <div className="w-full p-4 flex flex-col items-center gap-10 pb-28 md:flex-row md:flex-wrap md:py-2 lg:w-max-[1440px] lg:pb-50 lg:max-w-3/4">
       <h2 className="uppercase text-4xl font-light text-center md:order-1 md:mr-auto">
         Our Creations
       </h2>

@@ -3,7 +3,7 @@ import desktopInteractiveIMG from "../../assets/images/mobile/image-interactive.
 
 function Section_2() {
   return (
-    <div className="relative flex flex-col md:flex-row items-center justify-center px-8 py-12 md:px-24 w-full h-screen md:h-screen">
+    <div className="relative flex flex-col md:flex-row items-center justify-center px-8 py-12 md:px-24 w-full h-screen md:h-screen lg:max-w-3/4">
       <img
         className="md:absolute left-10 w-230 max-w-[80%]"
         src={mobileInteractiveIMG}
