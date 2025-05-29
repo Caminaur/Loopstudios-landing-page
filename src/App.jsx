@@ -6,7 +6,7 @@ import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
-    <div className="overflow-scroll flex flex-col items-center">
+    <div className="flex flex-col items-center">
       <Section_1 />
       <Section_2 />
       <Section_3 />
